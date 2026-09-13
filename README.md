@@ -10,6 +10,8 @@ Download the newest package from [GitHub Releases](https://github.com/riaanjutte
 
 PRISM checks this repository for updates at startup. Update checks can be disabled, run manually, postponed, or skipped for a specific version from within the application.
 
+See the [public roadmap](ROADMAP.md) for planned improvements and features.
+
 ## Requirements
 
 - Windows 10 or Windows 11, x64
