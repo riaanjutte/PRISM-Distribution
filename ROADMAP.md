@@ -13,6 +13,7 @@ PRISM is under active development. This roadmap highlights the features and impr
 - **Aircraft loadouts:** Display appropriate fuel tanks, bombs, rockets, pylons and racks using locally installed game assets.
 - **Saved camera views and multi-angle export:** Save named views such as port, starboard, underside and detail shots, then render consistent image sets across multiple liveries.
 - **Before-and-after skin comparison:** Compare two livery revisions with identical camera and lighting settings.
+- **Skin Inspector texture export:** Save full-resolution colour, alpha/finish, normal and Korea MRR inspection views as PNG files, and browse additional aircraft materials such as pilot, gunner, cockpit and attachment textures. Extracted game assets will remain local to the user's own installation.
 - **Blue and green screen backgrounds:** Use clean chroma-key backgrounds for replacing the environment in image and video editors.
 
 ## Longer-term features
