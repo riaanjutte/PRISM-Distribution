@@ -20,7 +20,7 @@ PRISM is under active development. This roadmap highlights the features and impr
 
 - **3D skin editing:** Place, move, rotate and resize artwork directly on aircraft surfaces, then include it in DDS files and Blender renders.
 - **Runway scene:** Present grounded aircraft on a dedicated outdoor runway with terrain and daylight.
-- **Animated turntable video export:** Create 360-degree Blender-rendered videos with configurable duration, direction and resolution, while animating supported aircraft controls and effects.
+- **Expanded aircraft posing and animated turntable video export:** Pose supported landing gear, wheels, flaps, control surfaces, speed/air/dive brakes, spoilers, slats, radiator and cowl flaps, bomb-bay doors, arrestor hooks, folding wings, canopy sections and propellers in still renders. Animate them, along with lights, exhaust glow and muzzle flashes, on a configurable 360-degree Blender-rendered video timeline.
 - **Player-controlled ground vehicles:** Extend PRISM's viewing, skin and rendering workflows to supported Great Battles and Tank Crew vehicles.
 - **Transparent-background export:** Export the aircraft as a clean cutout, optionally with a separate shadow layer.
 - **Reusable presentation presets:** Apply saved lighting, framing, background and watermark styles across different aircraft.
