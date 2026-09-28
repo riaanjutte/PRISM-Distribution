@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PRISM · The livery studio for IL-2 skin makers</title>
+<meta name="description" content="PRISM is a free Windows livery studio for IL-2 Great Battles and IL-2 Korea: view every livery on the real game models, paint onto the skin, light it like a photographer and render it in Blender Cycles.">
+<meta name="theme-color" content="#eceef1">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PRISM · The livery studio for IL-2 skin makers">
+<meta property="og:description" content="View every livery on the real game models, paint onto the skin, light it and render it in Blender Cycles. Free for Windows.">
+<meta property="og:image" content="https://riaanjutte.github.io/PRISM-Distribution/assets/og-image.jpg">
+<meta property="og:url" content="https://riaanjutte.github.io/PRISM-Distribution/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./" aria-label="PRISM home"><img src="assets/prism-96.png" alt="" width="28" height="28">PRISM</a>
+  <nav aria-label="Main"><a href="#features">Features</a><a href="#new">What's new</a><a href="#faq">FAQ</a><a href="guide/">User guide</a><a href="https://github.com/riaanjutte/PRISM-Distribution">GitHub</a></nav>
+  <a class="btn dark" href="#download">Download</a>
+</div></header>
+
+<main id="main">
+  <section class="hero wrap">
+    <a class="chip" id="chip" href="#new" hidden><b data-version></b><span id="chip-text">See what's new</span> →</a>
+    <h1>The livery studio<br>for <span class="spec">IL-2</span> skin makers.</h1>
+    <p>View every livery on the real game models, paint straight onto the skin, light it like a photographer and render it in Blender Cycles — all from your own IL-2 installation.</p>
+    <div class="ctas"><a class="btn amber" href="#download">Download for Windows</a><a class="btn line" href="#features">See what it does</a></div>
+    <small>Free · Windows 10 and 11 · IL-2 Great Battles and IL-2 Korea</small>
+    <div class="stage"><div class="window"><div class="bar" aria-hidden="true"><i></i><i></i><i></i><span>PRISM — F-51D Mustang</span></div><img src="assets/app-main.webp" alt="PRISM's main window: the Korea library on the left, an F-51D Mustang in the studio, and the Scene inspector's backgrounds and platforms on the right" width="2400" height="1396" fetchpriority="high"></div></div>
+  </section>
+
+  <div class="collections wrap">Great Battles · Flying Circus · Tank Crew · Korea</div>
+  <div class="marquee" aria-hidden="true"><div class="track" id="row1"></div><div class="track rev" id="row2"></div></div>
+
+  <section class="wrap" id="features">
+    <div class="sh"><div><span class="kick">Features</span><h2>Everything between the DDS file and the poster.</h2></div><p>Built around how skins are actually made: live previews while you edit, and renders worth sharing when you're done.</p></div>
+    <div class="bento">
+      <article class="card c1"><h3>Painter</h3><p>Brushes, selections, layers, masks and a finish layer for matt to bare metal, on the flat sheet and the 3D model side by side.</p><img class="shot" src="assets/app-painter.webp" alt="The Painter: the F-51D skin sheet beside the 3D model, with the layers panel" width="2000" height="1163" loading="lazy" style="left:24px;top:150px;width:calc(100% + 40px)"></article>
+      <article class="card c2"><h3>Scenes and light</h3><p>Studio lighting presets, platforms, photo skies and the game's own hangars.</p><img class="shot" src="assets/panel-scene.webp" alt="The Scene inspector's backgrounds and platform surfaces" width="608" height="1450" loading="lazy" style="left:24px;top:110px;width:46%"><img class="shot" src="assets/panel-lighting.webp" alt="The Lighting inspector's tone controls and a lighting preset diagram" width="608" height="1450" loading="lazy" style="right:-10px;top:160px;width:46%"></article>
+      <article class="card c3"><h3>Live DDS</h3><p>Save in Photoshop or GIMP; the vehicle updates at once.</p><div class="dds mono" aria-hidden="true">f51d_skin.dds <b>saved</b><br>→ skin reloaded on the aircraft<br>→ ready for Quick PNG</div></article>
+      <article class="card c4"><h3>Blender Cycles</h3><p>Stills up to 8K and turntable videos, on NVIDIA, AMD and Intel graphics cards.</p><div class="big">8K</div></article>
+      <article class="card c5"><h3>Light or dark</h3><p>Pick on first run, switch any time.</p><div class="themes"><img src="assets/theme-light.webp" alt="PRISM in the light theme" width="352" height="198" loading="lazy"><img src="assets/theme-dark.webp" alt="PRISM in the dark theme" width="352" height="198" loading="lazy"></div></article>
+      <article class="card c6"><div class="txt"><span class="kick on-dark">Rendered in PRISM</span><h3>Straight from the export, no retouching.</h3><p>Reflections, spinning propellers, muzzle flashes, tracers and exhaust flames all reach Blender as they are in the viewport.</p></div>
+        <div class="renders"><img src="assets/render-dh2.webp" alt="Airco D.H.2 rendered in Blender Cycles" width="2000" height="1125" loading="lazy" class="on"><img src="assets/render-f51d.webp" alt="F-51D Mustang rendered in Blender Cycles" width="2000" height="1125" loading="lazy"><img src="assets/render-mig15.webp" alt="MiG-15bis rendered in Blender Cycles" width="2000" height="1125" loading="lazy"></div></article>
+    </div>
+  </section>
+
+  <section class="wrap" id="new">
+    <div class="sh"><div><span class="kick">What's new</span><h2>Updated often.</h2></div><p><a id="notes" href="https://github.com/riaanjutte/PRISM-Distribution/releases">Full release notes</a> · PRISM updates itself when you allow it.</p></div>
+    <div class="news" id="news"><article><h4>Release notes</h4><p>See every release and what changed on <a href="https://github.com/riaanjutte/PRISM-Distribution/releases">GitHub</a>.</p></article></div>
+  </section>
+
+  <section class="wrap">
+    <div class="dl" id="download">
+      <div><span class="kick on-dark">Download</span><h2>Get PRISM <span data-version></span></h2><p class="lead">A per-user installer that needs no administrator rights, or a portable zip. Both check for updates.</p>
+        <ul class="req"><li>Windows 10 or 11, x64</li><li><a href="https://dotnet.microsoft.com/en-us/download/dotnet/9.0">.NET 9 Desktop Runtime</a></li><li>IL-2 Great Battles or IL-2 Korea</li><li>Direct3D 11 graphics card</li><li><a href="https://www.blender.org/download/">Blender</a> (optional, for Cycles)</li></ul></div>
+      <div id="files">
+        <a class="file" href="https://github.com/riaanjutte/PRISM-Distribution/releases/latest"><span class="ic">GH</span><div><b>Latest release on GitHub</b><small class="mono">Installer, zip and checksums</small></div><span class="btn amber small">Open</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap faq" id="faq">
+    <div><span class="kick">FAQ</span><h2>Questions</h2></div>
+    <div>
+      <details open><summary>Do I need to extract the game files?</summary><p>No. PRISM reads the models and liveries straight from your installed IL-2 games. Nothing is copied off your computer.</p></details>
+      <details><summary>Does it work with my own skins?</summary><p>Yes. Your skins appear beside the official liveries, and Live DDS reloads the one on screen whenever you save it in your image editor.</p></details>
+      <details><summary>Which vehicles are included?</summary><p>The aircraft and ground vehicles of the games you have installed: Great Battles, Flying Circus and Tank Crew from IL-2 Great Battles, and the aircraft of IL-2 Korea, including the AI-only ones.</p></details>
+      <details><summary>Do I need Blender?</summary><p>Only for Cycles renders. Quick PNG exports come straight from PRISM's own viewport, and PRISM tells you if Blender is missing when you ask for a Cycles render.</p></details>
+      <details><summary>How do updates work?</summary><p>PRISM checks this repository's releases when it starts. You can install the update, postpone it, skip that version or switch the check off in Settings.</p></details>
+      <details><summary>Something went wrong. Where do I report it?</summary><p>In PRISM, <em>Settings → Report a problem</em> puts its log and a few facts about your PC in a zip, without your Windows user name, and opens the <a href="https://github.com/riaanjutte/PRISM-Distribution/issues/new">Issues page</a> to attach it to.</p></details>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  <span>PRISM is an independent community project, not affiliated with or endorsed by 1C Game Studios, 777 Studios or the Blender Foundation.</span>
+  <nav aria-label="Footer"><a href="guide/">User guide</a><a href="https://github.com/riaanjutte/PRISM-Distribution/blob/main/ROADMAP.md">Roadmap</a><a href="https://github.com/riaanjutte/PRISM-Distribution/releases">Releases</a><a href="https://github.com/riaanjutte/PRISM-Distribution/issues/new">Report a problem</a><a href="https://www.buymeacoffee.com/haluter">Buy me a coffee</a></nav>
+</div></footer>
+<script src="site.js" defer></script>
+</body>
+</html>
