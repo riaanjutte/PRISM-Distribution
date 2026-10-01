@@ -22,7 +22,7 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="top"><div class="wrap">
   <a class="brand" href="./" aria-label="PRISM home"><img src="assets/prism-96.png" alt="" width="28" height="28">PRISM</a>
-  <nav aria-label="Main"><a href="#features">Features</a><a href="#new">What's new</a><a href="#faq">FAQ</a><a href="guide/">User guide</a><a href="https://github.com/riaanjutte/PRISM-Distribution">GitHub</a></nav>
+  <nav aria-label="Main"><a href="#features">Features</a><a href="#guide">Learn</a><a href="#new">What's new</a><a href="#faq">FAQ</a><a href="https://github.com/riaanjutte/PRISM-Distribution">GitHub</a><a class="guide-link" href="guide/">User guide</a></nav>
   <a class="btn dark" href="#download">Download</a>
 </div></header>
 
@@ -31,8 +31,8 @@
     <a class="chip" id="chip" href="#new" hidden><b data-version></b><span id="chip-text">See what's new</span> →</a>
     <h1>The livery studio<br>for <span class="spec">IL-2</span> skin makers.</h1>
     <p>View every livery on the real game models, paint straight onto the skin, light it like a photographer and render it in Blender Cycles — all from your own IL-2 installation.</p>
-    <div class="ctas"><a class="btn amber" href="#download">Download for Windows</a><a class="btn line" href="#features">See what it does</a></div>
-    <small>Free · Windows 10 and 11 · IL-2 Great Battles and IL-2 Korea</small>
+    <div class="ctas"><a class="btn amber" href="#download">Download for Windows</a><a class="btn line" href="guide/"><span class="book" aria-hidden="true"></span>Read the user guide</a></div>
+    <small>Free · Windows 10 and 11 · IL-2 Great Battles and IL-2 Korea · <a href="guide/#quick-start">Quick start in ten minutes</a></small>
     <div class="stage"><div class="window"><div class="bar" aria-hidden="true"><i></i><i></i><i></i><span>PRISM — F-51D Mustang</span></div><img src="assets/app-main.webp" alt="PRISM's main window: the Korea library on the left, an F-51D Mustang in the studio, and the Scene inspector's backgrounds and platforms on the right" width="2400" height="1396" fetchpriority="high"></div></div>
   </section>
 
@@ -49,6 +49,38 @@
       <article class="card c5"><h3>Light or dark</h3><p>Pick on first run, switch any time.</p><div class="themes"><img src="assets/theme-light.webp" alt="PRISM in the light theme" width="352" height="198" loading="lazy"><img src="assets/theme-dark.webp" alt="PRISM in the dark theme" width="352" height="198" loading="lazy"></div></article>
       <article class="card c6"><div class="txt"><span class="kick on-dark">Rendered in PRISM</span><h3>Straight from the export, no retouching.</h3><p>Reflections, spinning propellers, muzzle flashes, tracers and exhaust flames all reach Blender as they are in the viewport.</p></div>
         <div class="renders"><img src="assets/render-dh2.webp" alt="Airco D.H.2 rendered in Blender Cycles" width="2000" height="1125" loading="lazy" class="on"><img src="assets/render-f51d.webp" alt="F-51D Mustang rendered in Blender Cycles" width="2000" height="1125" loading="lazy"><img src="assets/render-mig15.webp" alt="MiG-15bis rendered in Blender Cycles" width="2000" height="1125" loading="lazy"></div></article>
+      <article class="card c7"><h3>Decals</h3><p>Numbers, names, markings and nose art on the vehicle's surface: linked on both sides, with blend, finish, outline and weathering. Bake them into the skin or keep them editable.</p><img class="shot" src="guide/images/decals-window.jpg" alt="A squadron number placed on the F-51D's fuselage, with the Decals tab beside it" width="3170" height="1844" loading="lazy" style="left:-34%;top:150px;width:150%"></article>
+      <article class="card c8"><h3>Projects page</h3><p>Every livery you're working on, planned, ready or released, as a card drawn in its own livery. Double-click to paint; export straight to the game.</p><img class="shot" src="guide/images/projects.jpg" alt="The projects page: cards for each livery, with a project's details on the right" width="3172" height="1846" loading="lazy" style="left:-150px;top:170px;width:calc(100% + 320px)"></article>
+      <article class="card c9"><h3>Every livery at a glance</h3><p>Pictures of every livery, favourites and recently used.</p><img class="shot" src="guide/images/livery-browser.png" alt="The livery browser: pictures of every F-51D livery" width="2140" height="1414" loading="lazy" style="left:24px;top:118px;width:calc(100% + 60px)"></article>
+      <article class="card c10"><h3>Turntables</h3><p>MP4 or GIF of the vehicle turning, from the viewport in seconds or from Cycles.</p><img class="shot" src="guide/images/turntable.png" alt="The turntable window: preview, renderer, size and camera" width="2300" height="2014" loading="lazy" style="left:24px;top:118px;width:calc(100% + 40px)"></article>
+      <article class="card c11"><h3>Made to move</h3><p>Effects caught as a camera would, in every export.</p><ul class="fx"><li>Spinning propellers with shutter blur</li><li>Muzzle flashes, tracers and gun smoke</li><li>Exhaust flames in firing order</li><li>Seated crew in summer or winter kit</li><li>Gear, flaps, canopies and loadouts</li></ul></article>
+    </div>
+  </section>
+
+  <section class="wrap" id="guide">
+    <div class="guide">
+      <div class="guide-intro">
+        <span class="kick">User guide</span>
+        <h2>Learn it chapter by chapter.</h2>
+        <p>A complete guide on this site, with screenshots of PRISM as it is today: from your first picture to the Painter, decals, lighting recipes and every shortcut. Settings → User guide opens it from inside PRISM.</p>
+        <div class="ctas"><a class="btn dark" href="guide/"><span class="book" aria-hidden="true"></span>Open the user guide</a><a class="btn line" href="guide/#quick-start">Quick start</a></div>
+        <div class="tour"><b>Prefer to watch?</b> PRISM plays a four-minute tour over its own window the first time it starts, and a detailed Painter tour any time from Settings.</div>
+      </div>
+      <ol class="chapters">
+        <li><a href="guide/#getting-started"><span class="n">01</span><span><b>Getting started</b><small>Installing, the first start, Blender and updates</small></span></a></li>
+        <li><a href="guide/#quick-start"><span class="n">02</span><span><b>Quick start</b><small>Your first picture and first edit in ten minutes</small></span></a></li>
+        <li><a href="guide/#the-prism-window"><span class="n">03</span><span><b>The PRISM window</b><small>Library, viewport, posing, lenses and Settings</small></span></a></li>
+        <li><a href="guide/#liveries"><span class="n">04</span><span><b>Liveries</b><small>The livery browser, your own skins and Live DDS</small></span></a></li>
+        <li><a href="guide/#scene"><span class="n">05</span><span><b>Scene</b><small>Studios, hangars, platforms, skies and clouds</small></span></a></li>
+        <li><a href="guide/#lighting"><span class="n">06</span><span><b>Lighting</b><small>Presets, individual lights, tone and recipes</small></span></a></li>
+        <li><a href="guide/#the-vehicle-tab"><span class="n">07</span><span><b>The Vehicle tab</b><small>Crew, gear, propellers, guns and exhaust flames</small></span></a></li>
+        <li><a href="guide/#decals-and-watermarks"><span class="n">08</span><span><b>Decals and watermarks</b><small>Markings on the vehicle, signatures on the picture</small></span></a></li>
+        <li><a href="guide/#painter"><span class="n">09</span><span><b>Painter</b><small>Tools, layers, selections, paths and finish layers</small></span></a></li>
+        <li><a href="guide/#exporting"><span class="n">10</span><span><b>Exporting</b><small>Quick PNG, Cycles, batches, showcases, turntables</small></span></a></li>
+        <li><a href="guide/#projects-and-sessions"><span class="n">11</span><span><b>Projects and sessions</b><small>The projects page and exporting to the game</small></span></a></li>
+        <li><a href="guide/#keyboard-and-mouse"><span class="n">12</span><span><b>Keyboard and mouse</b><small>Every shortcut in one place</small></span></a></li>
+        <li><a href="guide/#troubleshooting"><span class="n">13</span><span><b>Troubleshooting</b><small>Common questions and reporting a problem</small></span></a></li>
+      </ol>
     </div>
   </section>
 
@@ -60,7 +92,8 @@
   <section class="wrap">
     <div class="dl" id="download">
       <div><span class="kick on-dark">Download</span><h2>Get PRISM <span data-version></span></h2><p class="lead">A per-user installer that needs no administrator rights, or a portable zip. Both check for updates.</p>
-        <ul class="req"><li>Windows 10 or 11, x64</li><li><a href="https://dotnet.microsoft.com/en-us/download/dotnet/9.0">.NET 9 Desktop Runtime</a></li><li>IL-2 Great Battles or IL-2 Korea</li><li>Direct3D 11 graphics card</li><li><a href="https://www.blender.org/download/">Blender</a> (optional, for Cycles)</li></ul></div>
+        <ul class="req"><li>Windows 10 or 11, x64</li><li><a href="https://dotnet.microsoft.com/en-us/download/dotnet/9.0">.NET 9 Desktop Runtime</a></li><li>IL-2 Great Battles or IL-2 Korea</li><li>Direct3D 11 graphics card</li><li><a href="https://www.blender.org/download/">Blender</a> (optional, for Cycles)</li></ul>
+        <p class="next">New to PRISM? <a href="guide/#getting-started">Installing and the first start</a>, then the <a href="guide/#quick-start">Quick start</a>.</p></div>
       <div id="files">
         <a class="file" href="https://github.com/riaanjutte/PRISM-Distribution/releases/latest"><span class="ic">GH</span><div><b>Latest release on GitHub</b><small class="mono">Installer, zip and checksums</small></div><span class="btn amber small">Open</span></a>
       </div>
@@ -70,7 +103,9 @@
   <section class="wrap faq" id="faq">
     <div><span class="kick">FAQ</span><h2>Questions</h2></div>
     <div>
-      <details open><summary>Do I need to extract the game files?</summary><p>No. PRISM reads the models and liveries straight from your installed IL-2 games. Nothing is copied off your computer.</p></details>
+      <details open><summary>Is there a manual?</summary><p>Yes: the <a href="guide/">user guide</a>, thirteen chapters with screenshots, from the <a href="guide/#quick-start">Quick start</a> to <a href="guide/#keyboard-and-mouse">every shortcut</a>. PRISM also plays a four-minute tour over its own window, and a Painter tour.</p></details>
+      <details><summary>Do I need to extract the game files?</summary><p>No. PRISM reads the models and liveries straight from your installed IL-2 games. Nothing is copied off your computer.</p></details>
+      <details><summary>Can I paint skins in PRISM?</summary><p>Yes. The <a href="guide/#painter">Painter</a> paints colour and finish onto the skin in layers, with the 3D vehicle live beside the sheet, and <a href="guide/#decals-and-watermarks">decals</a> place markings and text. Export the finished skin as DDS, or straight into the game's Skins folder.</p></details>
       <details><summary>Does it work with my own skins?</summary><p>Yes. Your skins appear beside the official liveries, and Live DDS reloads the one on screen whenever you save it in your image editor.</p></details>
       <details><summary>Which vehicles are included?</summary><p>The aircraft and ground vehicles of the games you have installed: Great Battles, Flying Circus and Tank Crew from IL-2 Great Battles, and the aircraft of IL-2 Korea, including the AI-only ones.</p></details>
       <details><summary>Do I need Blender?</summary><p>Only for Cycles renders. Quick PNG exports come straight from PRISM's own viewport, and PRISM tells you if Blender is missing when you ask for a Cycles render.</p></details>
