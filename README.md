@@ -1,6 +1,6 @@
 # PRISM
 
-Official downloads and update feed for **PRISM**, a Windows livery viewer and rendering studio for aircraft in IL-2 Great Battles and IL-2 Korea.
+Official downloads and update feed for **PRISM**, a Windows livery viewer and rendering studio for aircraft in IL-2 Great Battles. PRISM no longer supports IL-2 Korea from its update v1.005.
 
 PRISM displays installed and custom liveries on extracted game aircraft, provides studio and environment scenes, includes skin inspection and live DDS workflows for artists, and creates high-quality Blender/Cycles renders.
 
@@ -8,7 +8,7 @@ PRISM displays installed and custom liveries on extracted game aircraft, provide
 
 Download the newest package from [GitHub Releases](https://github.com/riaanjutte/PRISM-Distribution/releases). Extract the complete ZIP to a writable folder, then run `PRISM.exe`.
 
-Current release: **v0.1.34**. Existing updater-enabled installations can install it from PRISM; new users can download it from the Releases page.
+Current release: **v0.2.66**. Existing updater-enabled installations can install it from PRISM; new users can download it from the Releases page.
 
 PRISM checks this repository for updates at startup. Update checks can be disabled, run manually, postponed, or skipped for a specific version from within the application.
 
@@ -18,7 +18,7 @@ See the [public roadmap](ROADMAP.md) for planned improvements and features.
 
 - Windows 10 or Windows 11, x64
 - [.NET 9 Desktop Runtime (x64)](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
-- An installed copy of IL-2 Great Battles or IL-2 Korea
+- An installed copy of IL-2 Great Battles
 - A Direct3D 11 capable GPU
 - [Blender](https://www.blender.org/download/) for optional Blender/Cycles exports
 

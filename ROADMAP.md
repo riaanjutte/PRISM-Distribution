@@ -5,7 +5,7 @@ PRISM is under active development. This roadmap highlights the features and impr
 ## Current priorities
 
 - Improve lighting and exposure consistency between the interactive viewport and Blender/Cycles renders, especially inside cockpits and hangars.
-- Continue improving reliability, performance and compatibility across the Great Battles and Korea aircraft libraries.
+- Continue improving reliability, performance and compatibility across the Great Battles libraries.
 - Validate automatic updating on clean user installations.
 
 ## Planned next
