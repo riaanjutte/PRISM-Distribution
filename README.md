@@ -1,6 +1,6 @@
 # PRISM
 
-Official downloads and update feed for **PRISM**, a Windows livery viewer and rendering studio for aircraft in IL-2 Great Battles. PRISM no longer supports IL-2 Korea from its update v1.005.
+Official downloads and update feed for **PRISM**, a Windows livery viewer and rendering studio for aircraft in IL-2 Great Battles.
 
 PRISM displays installed and custom liveries on extracted game aircraft, provides studio and environment scenes, includes skin inspection and live DDS workflows for artists, and creates high-quality Blender/Cycles renders.
 

@@ -7,7 +7,7 @@
   const $ = s => document.querySelector(s);
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-  // Two rows of vehicles, a fresh balanced draw from every collection in the index on every visit, like PRISM's welcome grid (IL-2 Korea is no longer supported).
+  // Two rows of vehicles, a fresh balanced draw from every collection in the index on every visit, like PRISM's welcome grid.
   const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   fetch("assets/profiles/index.json").then(r => r.json()).then(collections => {
     const pools = Object.entries(collections).map(([c, names]) => shuffle(names.map(n => `${c}__${n}`)));
